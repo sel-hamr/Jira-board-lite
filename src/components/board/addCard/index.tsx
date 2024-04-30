@@ -45,7 +45,7 @@ function AddCard({ column, setCards }: AddCardProps) {
           </button>
           <button
             type="submit"
-            className="flex items-center gap-1.5 rounded bg-neutral-50 px-3 py-1.5 text-xs text-neutral-950 transition-colors hover:bg-neutral-300"
+            className="flex items-center gap-1.5 rounded bg-[#1D7AFC] px-3 py-1.5 text-xs text-black transition-colors hover:bg-neutral-300"
           >
             <span>Add</span>
             <AddIcon />
@@ -59,7 +59,7 @@ function AddCard({ column, setCards }: AddCardProps) {
       onClick={() => setAdding(true)}
       className="flex w-full items-center gap-1.5 px-3 py-1.5 text-xs text-neutral-400 transition-colors hover:text-neutral-50"
     >
-      index
+      add a task
     </motion.button>
   );
 }

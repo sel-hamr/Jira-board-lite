@@ -32,7 +32,7 @@ function CardColumn({ column, setColumns, index, columns }: ColumnProps) {
         moveColumn(e, columns, setColumns);
       }}
       draggable="true"
-      className="active:cursor-grabbing data-[drop=true]:bg-slate-800 cursor-grab p-2 rounded border-neutral-700 bg-neutral-800 border border-solid relative "
+      className="active:cursor-grabbing data-[drop=true]:bg-slate-800 cursor-grab p-2 rounded border-neutral-700 bg-[#22272B] border border-solid relative "
     >
       <p>{column.title}</p>
       <div
