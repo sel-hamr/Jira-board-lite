@@ -43,8 +43,8 @@ function Column({
 
   return (
     <motion.div
-      className={`w-64 shrink-0 transition-colors px-2 py-3 rounded-lg ${
-        active ? "bg-neutral-800/50" : "bg-neutral-800/30"
+      className={`w-64 shrink-0 transition-colors px-2 py-3 rounded-lg  ${
+        active ? "bg-[#282E33]" : "bg-[#161A1D]"
       }`}
       onDragOver={handleOnDragOver}
       onDrop={handleOnDrop}
